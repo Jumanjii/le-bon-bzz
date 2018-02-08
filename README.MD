@@ -15,6 +15,7 @@ python: FLASK_APP=python/api.py flask run
 
 ## Api Routes:
 
-GET /fizzbuzz/:str1/:str2/:nbr1/:nbr2/:limit 
-    => Get the result of a fizzbuzz generation when str1 is fizz, str2 is buzz, nbr1 and nbr2 the two dividend. Limit is the number to generate. Limit is cap with `const maxLimit = 10000` in golang because it's an array. Evolution would be to change it to the equivalent of a chains struct in C.
+### GET /fizzbuzz/:str1/:str2/:nbr1/:nbr2/:limit 
+
+Get the result of a fizzbuzz generation when **str1** is *fizz*, **str2** is *buzz*, **nbr1** and **nbr2** are the two dividends. **Limit** is the number to generate. Limit is cap with `const maxLimit = 10000` in golang because it's an array. Evolution would be to change it to the equivalent of a linked list in C.
 
