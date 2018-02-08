@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node node-js/index.js"
+  },
+  "dependencies": {
+    "restify": "^6.3.4"
+  }
+}
